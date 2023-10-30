@@ -102,7 +102,6 @@ function buttonsHandler(el) {
 }
 
 
-
 class Result{
     constructor(previousNumber, lastNumber, point){
         this.previousNumber = previousNumber;
