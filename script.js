@@ -97,7 +97,9 @@ function buttonsHandler(el) {
             input.value = "";
             input.value += el.textContent;
         }
-        if (input.value == "*" || input.value == "/" || input.value == "+") input.value = "";
+        if (input.value == "*" || input.value == "/" || input.value == "+"){
+            input.value = "";
+        }
     }
 }
 
